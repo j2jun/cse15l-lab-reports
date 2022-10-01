@@ -10,20 +10,20 @@
 ## 2. Remotely Connecting
 * In this step, you will be connecting your computer to the remote server. 
 * Open terminal to run OpenSSH client, not the server. 
-* Login to the remote server by typing, “ssh <ucsd username>@ieng6.ucsd.edu” and then your password. 
-* If it asks to continue, type “yes.” You will see the screenshot after you login.
+* Login to the remote server by typing, “**ssh <ucsd username>@ieng6.ucsd.edu**” and then your password. 
+* If it asks to continue, type “**yes**.” You will similar image as the screenshot after you login.
 
 ![image](https://user-images.githubusercontent.com/54129361/193386145-b7a72951-a6a4-409d-8b27-910f47a3cbbe.png)
 
 ## 3. Trying Some Commands
-* Using OpenSSH client, you can run command on your computer or remote computer. 
+* Using **OpenSSH Client**, you can run command on your computer or remote computer. 
 * You can change directory, list files, concatenate the code from the file, which is shown below.
 
 ![image](https://user-images.githubusercontent.com/54129361/193386238-301de2e5-bee6-40cd-9289-1c928497fda0.png)
 
 ## 4. Moving Files with scp
 * o	Using scp command, you can copy the file on your computer to the remote server. 
-* Type “scp <filename> <user email>:~/” to copy the file to the remote server. 
+* Type “**scp <filename> <user email>:~/**” to copy the file to the remote server. 
 * The screenshot below shows the output after scp command has run.
 * Due to technical issues, all the command is not shown in the screenshot.
 
