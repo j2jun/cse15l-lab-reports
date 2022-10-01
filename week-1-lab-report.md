@@ -23,7 +23,7 @@
 
 ## 4. Moving Files with scp
 * o	Using scp command, you can copy the file on your computer to the remote server. 
-* Type “scp <filename> <user email>:~/” to copy the file to the remote server. 
+* Type “**scp 'ilename' 'user email':~/**” to copy the file to the remote server. 
 * The screenshot below shows the output after scp command has run.
 * Due to technical issues, all the command is not shown in the screenshot.
 
