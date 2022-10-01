@@ -1,4 +1,4 @@
-# Lab Report 1 - Remote Access and Filesystem
+# Lab Report 1 - Remote Access and Filesystem (by Joseph Jun)
 
 ## 1. Installing VScode
 
