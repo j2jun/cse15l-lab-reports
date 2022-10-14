@@ -1,21 +1,21 @@
-'''
+'''Java
 import java.io.IOException;
 import java.net.URI;
 import java.util.*;
 '''
-'''
+'''Java
 class Handler implements URLHandler {
     // The one bit of state on the server: a number that will be manipulated by
     // various requests.
     List<String> strList = new ArrayList<String>();
 '''
-'''
+'''Java
     // Tracks a list of strings
     // Support a path for adding a new string to the list
     // A path for querying the list of string and returning a list of all strings
     // that have a given substring.
 '''
-'''
+'''Java
     public String handleRequest(URI url) {
         if (url.getPath().contains("/")) {
             if (url.getPath().contains("add")) {
@@ -53,7 +53,7 @@ class Handler implements URLHandler {
     }
 }
 '''
-'''
+'''Java
 class NumberServer {
     public static void main(String[] args) throws IOException {
         if (args.length == 0) {
