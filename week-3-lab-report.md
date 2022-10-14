@@ -1,9 +1,9 @@
-###Week 3 Lab Report###
+# Week 3 Lab Report
 
-2. Search Engine Code
+2. **Search Engine Code**
 
+'''
     List<String> strList = new ArrayList<String>();
-
     public String handleRequest(URI url) {
         if (url.getPath().contains("/")) {
             if (url.getPath().contains("add")) {
@@ -39,3 +39,4 @@
         }
         return "404 Not Found!";
     }
+'''
