@@ -1,5 +1,4 @@
-'''Java
-    
+
     List<String> strList = new ArrayList<String>();
 
     public String handleRequest(URI url) {
@@ -38,5 +37,3 @@
         return "404 Not Found!";
     }
 }
-
-'''
