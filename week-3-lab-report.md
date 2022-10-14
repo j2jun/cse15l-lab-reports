@@ -1,3 +1,6 @@
+###Week 3 Lab Report###
+
+2. Search Engine Code
 
     List<String> strList = new ArrayList<String>();
 
@@ -36,4 +39,3 @@
         }
         return "404 Not Found!";
     }
-}
