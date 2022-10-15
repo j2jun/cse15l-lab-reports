@@ -55,7 +55,7 @@
         * This searches for any strings that have a substring, which was written after "search?s="
 
 ## 2. Part Two
-**Bugs & Tests
+**Bugs & Tests**
 
     1.
     * **Failure-inducing input:**
