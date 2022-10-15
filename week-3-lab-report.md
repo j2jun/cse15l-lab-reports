@@ -61,8 +61,14 @@
     * Failure-inducing input: 
     * Symptom: 
     * Bug: 
+    ```
+    
+    ```
     
     2.
     * Failure-inducing input: 
     * Symptom: 
     * Bug: 
+    ```
+    
+    ```
