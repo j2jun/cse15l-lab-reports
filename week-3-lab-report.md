@@ -59,7 +59,7 @@
 ## 2. Part Two
 **Bugs & Tests**
 
-   1.
+   1. **testReverseInPlace() from Array Methods**
    - Failure-inducing input:
     
   ```
@@ -89,7 +89,7 @@
    - The connection between the symptom & the bug:
     
     
-   2.
+   2. **filter() from List Methods**
    - Failure-inducing input:
     
    ```
@@ -103,7 +103,9 @@
    ```
     
    - Symptom:
-    
+  ![Test 2 Fail Output](https://user-images.githubusercontent.com/54129361/195963316-e6b04c64-d624-432c-b955-55a8d3ab044a.png)
+
+
    - Bug:
     
    ```
