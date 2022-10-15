@@ -56,6 +56,8 @@
 
 3. This searches for any strings that have a substring, which was written after "search?s="
 
+---
+
 ## 2. Part Two
 **Bugs & Tests**
 
@@ -88,10 +90,7 @@
  
     
    2. **filter() from List Methods**
-
-
    - Failure-inducing input:
-    
    ```
     @Test
     public void filter() {
@@ -101,13 +100,11 @@
         assertEquals(expected, ListExamples.filter(test, sc));
     }
    ```
-    
-    - Symptom:
+
+   - Symptom:
   ![Test 2 Fail Output](https://user-images.githubusercontent.com/54129361/195963316-e6b04c64-d624-432c-b955-55a8d3ab044a.png)
 
-
-    - Bug:
-    
+   - Bug:
    ```
     // Returns a new list that has all the elements of the input list for which
     // the StringChecker returns true, and not the elements that return false, in
@@ -122,6 +119,6 @@
         return result;
     }
    ```
-    
-    - The connection between the symptom & the bug:
+
+   - The connection between the symptom & the bug:
       Strings that needed to be added to the list were replacing the first index only.
