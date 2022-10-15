@@ -5,7 +5,6 @@
 
     ```
     List<String> strList = new ArrayList<String>();
-    
     public String handleRequest(URI url) {
         if (url.getPath().contains("/")) {
             if (url.getPath().contains("add")) {
