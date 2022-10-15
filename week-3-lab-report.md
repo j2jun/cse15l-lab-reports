@@ -89,10 +89,10 @@
    - The connection between the symptom & the bug:
     
     
-    2.
-    - Failure-inducing input:
+   2.
+   - Failure-inducing input:
     
-    ```
+   ```
     @Test
     public void filter() {
         List<String> test = List.of("India", "China", "Bhutan");
@@ -100,13 +100,13 @@
         StringChecker sc = new Checker();
         assertEquals(expected, ListExamples.filter(test, sc));
     }
-    ```
+   ```
     
-    - Symptom:
+   - Symptom:
     
-    - Bug:
+   - Bug:
     
-    ```
+   ```
     // Returns a new list that has all the elements of the input list for which
     // the StringChecker returns true, and not the elements that return false, in
     // the same order they appeared in the input list;
@@ -119,6 +119,6 @@
         }
         return result;
     }
-    ```
+   ```
     
-    - The connection between the symptom & the bug:
+   - The connection between the symptom & the bug:
