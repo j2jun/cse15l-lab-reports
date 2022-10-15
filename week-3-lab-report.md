@@ -61,7 +61,6 @@
 
    1. **testReverseInPlace() from Array Methods**
    - Failure-inducing input:
-    
   ```
     @Test
     public void testReverseInPlace() {
@@ -71,12 +70,10 @@
         assertArrayEquals(expected, testArray);
     }
   ```
-    
-    - Symptom:
+   - Symptom:
    ![Test1 Fail Output](https://user-images.githubusercontent.com/54129361/195962943-a9bd5839-3fe1-47ee-9aaf-94529a915fbe.png)
-    
-    - Bug:
-    
+   
+   - Bug:
    ```
     // Changes the input array to be in reversed order
     static void reverseInPlace(int[] arr) {
@@ -85,10 +82,10 @@
         }
     }
    ```
-    
-    - The connection between the symptom & the bug: 
-        After flipping half of the array list, ReverseInPlace shows bug that the other half reverses itself.
-    
+   
+   - The connection between the symptom & the bug:
+      After flipping half of the array list, ReverseInPlace shows bug that the other half reverses itself.
+ 
     
    2. **filter() from List Methods**
 
