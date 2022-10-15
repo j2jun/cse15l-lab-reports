@@ -59,6 +59,7 @@
 
     1.
     - Failure-inducing input:
+    
     ```
     @Test
     public void testReverseInPlace() {
@@ -68,9 +69,11 @@
         assertArrayEquals(expected, testArray);
     }
     ```
+    
     - Symptom:
     
     - Bug:
+    
     ```
     // Changes the input array to be in reversed order
     static void reverseInPlace(int[] arr) {
@@ -82,9 +85,10 @@
     
     - The connection between the symptom & the bug:
     
-    ---
+    
     2.
     - Failure-inducing input:
+    
     ```
     @Test
     public void filter() {
@@ -94,9 +98,11 @@
         assertEquals(expected, ListExamples.filter(test, sc));
     }
     ```
+    
     - Symptom:
     
     - Bug:
+    
     ```
     // Returns a new list that has all the elements of the input list for which
     // the StringChecker returns true, and not the elements that return false, in
