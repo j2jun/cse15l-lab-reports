@@ -58,17 +58,57 @@
 **Bugs & Tests
 
     1.
-    * Failure-inducing input: 
-    * Symptom: 
-    * Bug: 
+    * **Failure-inducing input:**
+    ```
+    @Test
+    public void testReverseInPlace() {
+        int[] testArray = { 1, 2, 3, 4, 5 };
+        int[] expected = { 5, 4, 3, 2, 1 };
+        ArrayExamples.reverseInPlace(testArray);
+        assertArrayEquals(expected, testArray);
+    }
+    ```
+    * **Symptom:** 
+    
+    * **Bug:** 
+    ```
+    // Changes the input array to be in reversed order
+    static void reverseInPlace(int[] arr) {
+        for(int i = 0; i < arr.length; i += 1) {
+            arr[i] = arr[arr.length - i - 1];
+        }
+    }
     ```
     
-    ```
+    * **The connection between the symptom & the bug:**
     
     2.
-    * Failure-inducing input: 
-    * Symptom: 
-    * Bug: 
+    * **Failure-inducing input:**
+    ```
+    @Test
+    public void filter() {
+        List<String> test = List.of("India", "China", "Bhutan");
+        List<String> expected = List.of("India", "China", "Bhutan");
+        StringChecker sc = new Checker();
+        assertEquals(expected, ListExamples.filter(test, sc));
+    }
+    ```
+    * **Symptom:**
+    
+    * **Bug:**
+    ```
+    // Returns a new list that has all the elements of the input list for which
+    // the StringChecker returns true, and not the elements that return false, in
+    // the same order they appeared in the input list;
+    static List<String> filter(List<String> list, StringChecker sc) {
+        List<String> result = new ArrayList<>();
+        for(String s: list) {
+            if(sc.checkString(s)) {
+                result.add(0, s);
+            }
+        }
+        return result;
+    }
     ```
     
-    ```
+    * **The connection between the symptom & the bug:**
