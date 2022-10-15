@@ -3,7 +3,7 @@
 ## 1. Part One
 **Search Engine Code**
 
-    ```
+   ```
     List<String> strList = new ArrayList<String>();
     
     public String handleRequest(URI url) {
@@ -41,7 +41,7 @@
         }
         return "404 Not Found!";
     }
-    '''
+   ```
     
 **Screenshot**
 ![2](https://user-images.githubusercontent.com/54129361/195956481-6b1ddd17-7bd1-43a6-82ed-9121bca3af87.png)
@@ -62,7 +62,7 @@
     1.
     - Failure-inducing input:
     
-    ```
+   ```
     @Test
     public void testReverseInPlace() {
         int[] testArray = { 1, 2, 3, 4, 5 };
@@ -70,10 +70,10 @@
         ArrayExamples.reverseInPlace(testArray);
         assertArrayEquals(expected, testArray);
     }
-    ```
+   ```
     
     - Symptom:
-    ![Test1 Fail Output](https://user-images.githubusercontent.com/54129361/195962943-a9bd5839-3fe1-47ee-9aaf-94529a915fbe.png)
+   ![Test1 Fail Output](https://user-images.githubusercontent.com/54129361/195962943-a9bd5839-3fe1-47ee-9aaf-94529a915fbe.png)
     
     - Bug:
     
