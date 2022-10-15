@@ -2,6 +2,7 @@
 
 ## 1. Part 1
 **Search Engine Code**
+
     ```
     List<String> strList = new ArrayList<String>();
     
