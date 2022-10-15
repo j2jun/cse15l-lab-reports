@@ -3,8 +3,9 @@
 ## 1. Part One
 **Search Engine Code**
 
-    ```
+    ```Java
     List<String> strList = new ArrayList<String>();
+    
     public String handleRequest(URI url) {
         if (url.getPath().contains("/")) {
             if (url.getPath().contains("add")) {
@@ -61,7 +62,7 @@
     1.
     - Failure-inducing input:
     
-    ```
+    ```Java
     @Test
     public void testReverseInPlace() {
         int[] testArray = { 1, 2, 3, 4, 5 };
@@ -76,7 +77,7 @@
     
     - Bug:
     
-    ```
+    ```Java
     // Changes the input array to be in reversed order
     static void reverseInPlace(int[] arr) {
         for(int i = 0; i < arr.length; i += 1) {
@@ -91,7 +92,7 @@
     2.
     - Failure-inducing input:
     
-    ```
+    ```Java
     @Test
     public void filter() {
         List<String> test = List.of("India", "China", "Bhutan");
@@ -105,7 +106,7 @@
     
     - Bug:
     
-    ```
+    ```Java
     // Returns a new list that has all the elements of the input list for which
     // the StringChecker returns true, and not the elements that return false, in
     // the same order they appeared in the input list;
