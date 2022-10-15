@@ -1,6 +1,6 @@
 # Week 3 Lab Report
 
-## 1. Part 1
+## 1. Part One
 **Search Engine Code**
 
     ```
@@ -73,6 +73,7 @@
     ```
     
     - Symptom:
+    ![Test1 Fail Output](https://user-images.githubusercontent.com/54129361/195962943-a9bd5839-3fe1-47ee-9aaf-94529a915fbe.png)
     
     - Bug:
     
