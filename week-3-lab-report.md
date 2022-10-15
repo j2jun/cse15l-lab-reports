@@ -46,23 +46,23 @@
 **Screenshot**
 ![2](https://user-images.githubusercontent.com/54129361/195956481-6b1ddd17-7bd1-43a6-82ed-9121bca3af87.png)
 
-    1. This shows when you want to add a new string of list. This erases all the previous strings that were stored. Anything after the "=" is stored as a string. 
+1. This shows when you want to add a new string of list. This erases all the previous strings that were stored. Anything after the "=" is stored as a string. 
 
 ![5](https://user-images.githubusercontent.com/54129361/195956578-07412c07-3cf5-474f-bc1c-a8fe2c5ade58.png)
 
-    2. This adds a string to the list of strings. 
+2. This adds a string to the list of strings. 
 
 ![6](https://user-images.githubusercontent.com/54129361/195956534-8aac2eff-a51e-422a-90bb-f13593f63d29.png)
 
-    3. This searches for any strings that have a substring, which was written after "search?s="
+3. This searches for any strings that have a substring, which was written after "search?s="
 
 ## 2. Part Two
 **Bugs & Tests**
 
-    1.
-    - Failure-inducing input:
+   1.
+   - Failure-inducing input:
     
-   ```
+  ```
     @Test
     public void testReverseInPlace() {
         int[] testArray = { 1, 2, 3, 4, 5 };
@@ -70,23 +70,23 @@
         ArrayExamples.reverseInPlace(testArray);
         assertArrayEquals(expected, testArray);
     }
-   ```
+  ```
     
-    - Symptom:
+   - Symptom:
    ![Test1 Fail Output](https://user-images.githubusercontent.com/54129361/195962943-a9bd5839-3fe1-47ee-9aaf-94529a915fbe.png)
     
-    - Bug:
+   - Bug:
     
-    ```
+   ```
     // Changes the input array to be in reversed order
     static void reverseInPlace(int[] arr) {
         for(int i = 0; i < arr.length; i += 1) {
             arr[i] = arr[arr.length - i - 1];
         }
     }
-    ```
+   ```
     
-    - The connection between the symptom & the bug:
+   - The connection between the symptom & the bug:
     
     
     2.
