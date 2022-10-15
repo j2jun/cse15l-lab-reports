@@ -44,17 +44,17 @@
     ```
     
 **Screenshot**
-1. ![2](https://user-images.githubusercontent.com/54129361/195956481-6b1ddd17-7bd1-43a6-82ed-9121bca3af87.png)
+![2](https://user-images.githubusercontent.com/54129361/195956481-6b1ddd17-7bd1-43a6-82ed-9121bca3af87.png)
 
-        - This shows when you want to add a new string of list. This erases all the previous strings that were stored. Anything after the "=" is stored as a string. 
+    1. This shows when you want to add a new string of list. This erases all the previous strings that were stored. Anything after the "=" is stored as a string. 
 
-2. ![5](https://user-images.githubusercontent.com/54129361/195956578-07412c07-3cf5-474f-bc1c-a8fe2c5ade58.png)
+![5](https://user-images.githubusercontent.com/54129361/195956578-07412c07-3cf5-474f-bc1c-a8fe2c5ade58.png)
 
-        - This adds a string to the list of strings. 
+    2. This adds a string to the list of strings. 
 
-3. ![6](https://user-images.githubusercontent.com/54129361/195956534-8aac2eff-a51e-422a-90bb-f13593f63d29.png)
+![6](https://user-images.githubusercontent.com/54129361/195956534-8aac2eff-a51e-422a-90bb-f13593f63d29.png)
 
-        -This searches for any strings that have a substring, which was written after "search?s="
+    3. This searches for any strings that have a substring, which was written after "search?s="
 
 ## 2. Part Two
 **Bugs & Tests**
