@@ -1,4 +1,4 @@
-# Week 3 Lab Report
+# Week 3 Lab Report by *Joseph Jun*
 
 ## 1. Part One
 **Search Engine Code**
