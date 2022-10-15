@@ -51,7 +51,18 @@
         * This adds a string to the list of strings. 
 
 3. ![6](https://user-images.githubusercontent.com/54129361/195956534-8aac2eff-a51e-422a-90bb-f13593f63d29.png)
+
         * This searches for any strings that have a substring, which was written after "search?s="
 
 ## 2. Part Two
 **Bugs & Tests
+
+    1.
+    * Failure-inducing input: 
+    * Symptom: 
+    * Bug: 
+    
+    2.
+    * Failure-inducing input: 
+    * Symptom: 
+    * Bug: 
