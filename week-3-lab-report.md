@@ -82,7 +82,7 @@
     
     - The connection between the symptom & the bug:
     
-    --------------------------------------------------------------------------------------------------
+    ---
     2.
     - Failure-inducing input:
     ```
