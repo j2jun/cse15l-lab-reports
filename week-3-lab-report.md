@@ -85,9 +85,12 @@ The following is my code for a search engine that tracks a list of strings, adds
         }
     }
    ```
-   
+
    - The connection between the symptom & the bug:
       After flipping half of the array list, ReverseInPlace shows bug that the other half reverses itself.
+      
+   - Fixed Code:
+   ![image](https://user-images.githubusercontent.com/54129361/198150969-8997c4c5-9a69-4baa-91d9-6499dfb121b9.png)
  
     
    2. **filter() from List Methods**
@@ -123,3 +126,6 @@ The following is my code for a search engine that tracks a list of strings, adds
 
    - The connection between the symptom & the bug:
       Strings that needed to be added to the list were replacing the first index only.
+      
+   - Fixed Code:
+   
