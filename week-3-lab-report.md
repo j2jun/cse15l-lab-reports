@@ -2,6 +2,7 @@
 
 ## 1. Part One
 **Search Engine Code**
+The following is my code for a search engine that tracks a list of strings, adds a new string to the list, and returns a list of all strings that have a given substring.
 
    ```
     List<String> strList = new ArrayList<String>();
@@ -46,15 +47,15 @@
 **Screenshot**
 ![2](https://user-images.githubusercontent.com/54129361/195956481-6b1ddd17-7bd1-43a6-82ed-9121bca3af87.png)
 
-1. This shows when you want to add a new string of list. This erases all the previous strings that were stored. Anything after the "=" is stored as a string. 
+1. This shows when you want to add a new string of list. This erases all the previous strings that were stored. Anything after the "=" is stored as a string. This has a several method calls for getPath(), contains(), getQuery(), split(), and format(). contains() checks you if you contain a certain phrase. getQuery() and split() pulls out the substring from the URL that we want to add. equals() compares to check if the URL is formatted correctly. add() stores a new string to the list. format() prints out the string with a certain format.
 
 ![5](https://user-images.githubusercontent.com/54129361/195956578-07412c07-3cf5-474f-bc1c-a8fe2c5ade58.png)
 
-2. This adds a string to the list of strings. 
+2. This adds a string to the list of strings. This has a several method calls for getPath(), contains(), getQuery(), split(), and format(). contains() checks you if you contain a certain phrase. getQuery() and split() pulls out the substring from the URL that we want to add. equals() compares to check if the URL is formatted correctly. add() stores a new string to the list. format() prints out the string with a certain format.
 
 ![6](https://user-images.githubusercontent.com/54129361/195956534-8aac2eff-a51e-422a-90bb-f13593f63d29.png)
 
-3. This searches for any strings that have a substring, which was written after "search?s="
+3. This searches for any strings that have a substring, which was written after "search?s=". This has a several method calls for getPath(), contains(), getQuery(), split(), and format(). contains() checks you if you contain a certain phrase. getQuery() and split() pulls out the substring from the URL that we want to add. equals() compares to check if the URL is formatted correctly. add() stores a new string to the list. format() prints out the string with a certain format.
 
 ---
 
