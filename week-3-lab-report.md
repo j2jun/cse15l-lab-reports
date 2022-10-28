@@ -112,25 +112,14 @@ The following is my code for a search engine that tracks a list of strings, adds
    ```
 
    - Symptom:
-  ![Test 2 Fail Output](https://user-images.githubusercontent.com/54129361/195963316-e6b04c64-d624-432c-b955-55a8d3ab044a.png)
+  ![image](https://user-images.githubusercontent.com/54129361/198423706-479d0e46-03d5-4a5a-959a-ed62d5d23459.png)
 
    - Bug:
-   ```
-    // Returns a new list that has all the elements of the input list for which
-    // the StringChecker returns true, and not the elements that return false, in
-    // the same order they appeared in the input list;
-    static List<String> filter(List<String> list, StringChecker sc) {
-        List<String> result = new ArrayList<>();
-        for(String s: list) {
-            if(sc.checkString(s)) {
-                result.add(s);
-            }
-        }
-        return result;
-    }
-   ```
-   In order to fix this bug, you need to make sure the StringChecker is correct. 
+   ![1](https://user-images.githubusercontent.com/54129361/198423745-3ccd7682-280d-46b1-b467-3f87d2301259.png)
+
+   
+   In order to fix this bug, you need change the bottom section of code. If you look at the last while loop, you can see the index1 increments, not index2. You need to change to index 2, so it won't be an infinite loop. Aftr changing to index 2, the code will work.
    
    - The connection between the symptom & the bug:
-      Strings that needed to be added to the list were replacing the first index only.
+      The connection between the symptom & the bug is that the loop will never end since only index1 is incrementing. 
    
