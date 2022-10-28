@@ -85,23 +85,29 @@ The following is my code for a search engine that tracks a list of strings, adds
         }
     }
    ```
+   In order to fix this bug, you need to create a temporary integer. You store the temporary integer with the array list at the current index. After storing, you set the index to "arr.length - i - 1." Now, you need to set the array list at the "arr.length - i - 1" to the temporary integer. Basically, you swap the order by using the temporary integer.
 
    - The connection between the symptom & the bug:
       After flipping half of the array list, ReverseInPlace shows bug that the other half reverses itself.
-      
-   - Fixed Code:
-   ![image](https://user-images.githubusercontent.com/54129361/198150969-8997c4c5-9a69-4baa-91d9-6499dfb121b9.png)
  
     
    2. **filter() from List Methods**
    - Failure-inducing input:
    ```
     @Test
-    public void filter() {
-        List<String> test = List.of("India", "China", "Bhutan");
-        List<String> expected = List.of("India", "China", "Bhutan");
-        StringChecker sc = new Checker();
-        assertEquals(expected, ListExamples.filter(test, sc));
+    public void merge() {
+        List<String> list1 = new ArrayList<String>();
+        List<String> list2 = new ArrayList<String>();
+        List<String> expected = List.of("apple", "banana", "dog", "monkey", "orange");
+
+        list1.add("banana");
+        list1.add("apple");
+        list1.add("orange");
+        list2.add("monkey");
+        list1.add("monkey");
+        list2.add("banana");
+        list2.add("dog");
+        assertEquals(expected, ListExamples.merge(list1, list2));
     }
    ```
 
@@ -117,15 +123,14 @@ The following is my code for a search engine that tracks a list of strings, adds
         List<String> result = new ArrayList<>();
         for(String s: list) {
             if(sc.checkString(s)) {
-                result.add(0, s);
+                result.add(s);
             }
         }
         return result;
     }
    ```
-
+   In order to fix this bug, you need to make sure the StringChecker is correct. 
+   
    - The connection between the symptom & the bug:
       Strings that needed to be added to the list were replacing the first index only.
-      
-   - Fixed Code:
    
