@@ -179,4 +179,4 @@ Output:
 
 Using a file size to find files can be useful when you want to delete a file that takes up too much space.
 
-There are many more useful options to find files or directories. The best recommendation is search find *"command-line find options"* in Google.
+There are many more useful options to find files or directories. The best recommendation is searching *"command-line find options"* in Google.
