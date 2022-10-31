@@ -130,12 +130,13 @@ Finding all directories help you to know what is in the folder.
 3.	Find *-size* option
 
 You can find files based on size. There are following suffices to specify the file size:
-•	**b:** 512-byte blocks (default)
-•	**c:** bytes
-•	**w:** two-byte words
-•	**k:** Kilobytes
-•	**M:** Megabytes
-•	**G:** Gigabytes
+
+*	**b:** 512-byte blocks (default)
+*	**c:** bytes
+*	**w:** two-byte words
+*	**k:** Kilobytes
+*	**M:** Megabytes
+*	**G:** Gigabytes
 
 Let’s say you want to find exactly *5 Kilobytes* inside a */government* directory. (See code below)
 
