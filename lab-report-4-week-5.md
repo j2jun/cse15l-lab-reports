@@ -3,7 +3,7 @@
 ## **“find”** command locates or searches the files or directories.
 
 Assume all working directory is *.technical/* .
----
+
 ---
 
 1. find *-name* option
