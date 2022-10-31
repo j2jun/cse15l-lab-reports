@@ -8,8 +8,6 @@ Assume all code is in *./technical* working directory.
 
 1. find *-name* option
 
-You can find files based on size. There are following suffices to specify the file size:
-
 **Example 1.1**
 ```
 $ find . -name Annual_Fee.txt
