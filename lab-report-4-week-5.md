@@ -2,7 +2,7 @@
 
 ## **“find”** command locates or searches the files or directories.
 
-Assume all working directory is *.technical/* .
+Assume all code is in *./technical* working directory.
 
 ---
 
