@@ -125,6 +125,7 @@ Output:
 Finding all directories help you to know what is in the folder.
 
 ---
+
 3.	Find *-size* option
 
 You can find files based on size. There are following suffices to specify the file size:
@@ -151,6 +152,8 @@ Output:
 Also, you can search files that are greater or less than specified size.
 
 Here, you can search files greater than *1MB* inside */technical* directory. Make sure to write **“+”** symbol before the size value. (See code below)
+
+**Example 3.2**
 ```
 $ find . -type f -size +1M
 ```
@@ -161,6 +164,8 @@ Output:
 You will get no result because there are no files with greater than *1 Megabytes*. If you want to find files with less than a certain value, then use **“-”** symbol before the size value.
 
 You can also search files within a size range. Let’s say in */biomed* directory, you want to find all files between *1 byte* and *1 Megabytes*. (See below code)
+
+**Example 3.3**
 ```
 $ find ./biomed -type f -size +1c -size 1M
 ```
@@ -178,5 +183,7 @@ Output:
 ```
 
 Using a file size to find files can be useful when you want to delete a file that takes up too much space.
+
+---
 
 There are many more useful options to find files or directories. The best recommendation is searching *"command-line find options"* in Google.
