@@ -107,7 +107,7 @@ Output:
 
 Now, let’s say you want to look for all directories inside the working directory, use the code below.
 
-** Example 2.3**
+**Example 2.3**
 ```
 $ find . -type d
 ```
@@ -162,7 +162,7 @@ Output:
 
 You will get no result because there are no files with greater than *1 Megabytes*. If you want to find files with less than a certain value, then use **“-”** symbol before the size value.
 
-You can also search files within a size range. Let’s say in /biomed directory, you want to find all files between *1 byte* and *1 Megabytes*. (See below code)
+You can also search files within a size range. Let’s say in */biomed* directory, you want to find all files between *1 byte* and *1 Megabytes*. (See below code)
 ```
 $ find ./biomed -type f -size +1c -size 1M
 ```
@@ -172,7 +172,7 @@ Output:
 ./biomed/1468-6708-3-10.txt
 ./biomed/1468-6708-3-3.txt
 ./biomed/1468-6708-3-4.txt
-….
+…
 ./biomed/rr196.txt
 ./biomed/rr37.txt
 ./biomed/rr73.txt
