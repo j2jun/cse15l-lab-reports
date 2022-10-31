@@ -5,7 +5,7 @@
 **Assume all working directory is *.technical/* .**
 ---
 
-1. find -name option
+1. find *-name* option
 You can find files based on size. There are following suffices to specify the file size:
 **Example 1.1**
 ```
@@ -48,12 +48,18 @@ Output:
 ./government/Media
 ```
 
-2.	find -type option
+2.	find *-type* option
+
 •	find -type f -name
+
 If you want to look for files that have empty content, you can use this command below. This is useful when you want to delete any unnecessary files. (See the code below)
-Example 2.1
+
+**Example 2.1**
+```
 $ find . -type f -empty
+```
 Output: 
+```
 ./government/Media/Anthem_Payout.txt
 ./government/Media/Assuring_Underprivileged.txt
 ./government/Media/Avoids_Budget_Cut.txt
@@ -65,11 +71,16 @@ Output:
 ./government/Media/Bias_on_the_Job.txt
 ./government/Media/Boone_legal_service.txt
 …… (There are more files)
+```
 
 Like find -name option, you can also find files using this command. (See the code below)
-Example 2.2
+
+**Example 2.2**
+```
 $ find . -type -name chapter*.txt
+```
 Output:
+```
 ./911report/chapter-1.txt
 ./911report/chapter-10.txt
 ./911report/chapter-11.txt
@@ -86,9 +97,16 @@ Output:
 ./911report/chapter-7.txt
 ./911report/chapter-8.txt
 ./911report/chapter-9.txt
+```
+
 Now, let’s say you want to look for all directories inside the working directory, use the code below.
+
+** Example 2.3**
+```
 $ find . -type d
+```
 Output:
+```
 .
 ./911report
 ./biomed
@@ -98,31 +116,50 @@ Output:
 ./government/Env_Prot_Agen
 ./government/Gen_Account_Office
 ./government/Media
+```
+
 Finding all directories help you to know what is in the folder.
 
-3.	Find -size option
+3.	Find *-size* option
+
 You can find files based on size. There are following suffices to specify the file size:
-•	b: 512-byte blocks (default)
-•	c: bytes
-•	w: two-byte words
-•	k: Kilobytes
-•	M: Megabytes
-•	G: Gigabytes
+•	**b:** 512-byte blocks (default)
+•	**c:** bytes
+•	**w:** two-byte words
+•	**k:** Kilobytes
+•	**M:** Megabytes
+•	**G:** Gigabytes
+
 Let’s say you want to find exactly 5 Kilobytes inside a /government directory. (See code below)
+
+**Example 3.1**
+```
 $ find ./government -type f -size 5k
+```
 Output:
+```
 ./government/Gen_Account_Office/d01121g.txt
 ./government/Media/Annual_Fee.txt
+```
 
 Also, you can search files that are greater or less than specified size.
-Here, you can search files greater than 1MB inside /technical directory. Make sure to write “+” symbol before the size value. (See code below)
+
+Here, you can search files greater than 1MB inside /technical directory. Make sure to write **“+”** symbol before the size value. (See code below)
+```
 $ find . -type f -size +1M
+```
 Output:
-N/A
-You will get no result because there are no files with greater than 1 Megabytes. If you want to find files with less than a certain value, then use “-” symbol before the size value.
+```
+```
+
+You will get no result because there are no files with greater than 1 Megabytes. If you want to find files with less than a certain value, then use **“-”** symbol before the size value.
+
 You can also search files within a size range. Let’s say in /biomed directory, you want to find all files between 1 byte and 1 Megabytes. (See below code)
+```
 $ find ./biomed -type f -size +1c -size 1M
+```
 Output:
+```
 ./biomed/1468-6708-3-1.txt
 ./biomed/1468-6708-3-10.txt
 ./biomed/1468-6708-3-3.txt
@@ -132,4 +169,8 @@ Output:
 ./biomed/rr37.txt
 ./biomed/rr73.txt
 ./biomed/rr74.txt
+```
+
 Using a file size to find files can be useful when you want to delete a file that takes up too much space.
+
+There are many more useful options to find files or directories. The best recommendation is search find *"command-line find options"* in Google.
