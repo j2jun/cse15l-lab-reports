@@ -50,7 +50,7 @@ Output:
 ./government/Media
 ```
 
-
+---
 2.	find *-type* option
 
 •	find -type **f** -name
@@ -125,7 +125,7 @@ Output:
 
 Finding all directories help you to know what is in the folder.
 
-
+---
 3.	Find *-size* option
 
 You can find files based on size. There are following suffices to specify the file size:
