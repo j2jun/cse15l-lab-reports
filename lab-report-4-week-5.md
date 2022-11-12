@@ -38,6 +38,8 @@ Output:
 ./biomed/1471-2148-2-8.txt
 ```
 
+As a result, you will receive all the text files, which have "1471-2148-2-" on the front of the file's name, in the biomed directory.
+
 Sometimes, instead of a file, you want to find a folder. You can use *find -name* to locate where the folder that is saved. (See the code below)
 
 **Example 1.3**
@@ -49,7 +51,10 @@ Output:
 ./government/Media
 ```
 
+This shows where the file is located. You have found a folder with a name, "Media," in the goverment folder. If the there are folders with same name in different locations, You will see multiple lines of output.
+
 ---
+
 2.	find *-type* option
 
 •	find -type **f** -name
@@ -74,6 +79,7 @@ Output:
 ./government/Media/Boone_legal_service.txt
 …… (There are more files)
 ```
+Here, you can see all the text files with empty contents. This will help to organize your folder.
 
 Like find -name option, you can also find files using this command. (See the code below)
 
@@ -122,7 +128,7 @@ Output:
 ./government/Media
 ```
 
-Finding all directories help you to know what is in the folder.
+Finding all directories help you to know what is in the folder. Also, you can organize your folder according to the name of the folder.
 
 ---
 
