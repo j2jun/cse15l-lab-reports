@@ -1,8 +1,7 @@
 # Week 7: Lab Report 4 - VIM
-
+---
 
 ## Part 1 - Changing the name of the *start* parameter and its uses to *base*
----
 
 ```
 /start<enter>cebase<esc>n.n.:w<enter>
@@ -36,9 +35,8 @@
   
   ![image](https://user-images.githubusercontent.com/54129361/201616598-5919064f-faa0-4e4f-bb99-a18128943d49.png)
 
-  
+---  
 ## Part 2 - Questions
----
   
 * **Report how long it took you to make the edit in seconds in both styles, and any difficulties or details that came up in doing so.**
   
