@@ -1,4 +1,4 @@
-# Week 7: Lab Report 4 - VIM
+# Week 7: Lab Report 5 - VIM
 ---
 
 ## Part 1 - Changing the name of the *start* parameter and its uses to *base*
@@ -50,3 +50,5 @@
 * **What about the project or task might factor into your decision one way or another? (If nothing would affect your decision, say so and why!)**
   
   I believe the memory and the organization of files are the deciding factors into my decision. Sometimes, it is much easier to run locally and use scp to copy all the changes that are made. However, if it requires less change; it can be much easier to directly edit from the remote server.
+
+---
