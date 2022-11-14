@@ -1,42 +1,42 @@
-#Week 7: Lab Report 4 - VIM#
+# Week 7: Lab Report 4 - VIM
 
-##Part 1 - Changing the name of the *start* parameter and its uses to *base*##
+## Part 1 - Changing the name of the *start* parameter and its uses to *base*
 ---
 
 ```
 /start<enter>cebase<esc>n.n.:w<enter>
 ```
 
-* ```**/start<enter>**``` - the cursor jumps to the front of “start”
+* ```/start<enter>``` - the cursor jumps to the front of “start”
   
   ![image](https://user-images.githubusercontent.com/54129361/201615831-ed4f36a7-7c8b-4327-9e82-8a6627d5351e.png)
 
-* ```**ce**``` - The cursor will change to insert mode and deletes the word “start”
+* ```ce``` - The cursor will change to insert mode and deletes the word “start”
   
   ![image](https://user-images.githubusercontent.com/54129361/201615926-5c1b1994-940a-49ab-9969-eba5d05ff450.png)
 
-* ```**base<esc>**``` – Type in “base” and exit the insert mode
+* ```base<esc>``` – Type in “base” and exit the insert mode
   
   ![image](https://user-images.githubusercontent.com/54129361/201616181-e32ce73d-7ac7-46c9-bc61-07cbad7955e5.png)
 
-* ```**n**``` – searches the last search command (/start) from the current cursor’s position
+* ```n``` – searches the last search command (/start) from the current cursor’s position
   
   ![image](https://user-images.githubusercontent.com/54129361/201616271-b35b003f-12a4-4b06-b023-cff3b5138f7b.png)
 
-* ```**.**``` - Repeats the last insert command, which was to replace “start” to “base”
+* ```.``` - Repeats the last insert command, which was to replace “start” to “base”
   
   ![image](https://user-images.githubusercontent.com/54129361/201616418-409d1204-e857-4d56-b476-bc5854c7fd70.png)
 
-* ```**n.**``` – like above, searches the word, “start,” and replaces that word to “base”
+* ```n.``` – like above, searches the word, “start,” and replaces that word to “base”
   
   ![image](https://user-images.githubusercontent.com/54129361/201616510-0ede325b-dad9-4f3b-8f39-1cd6d75449c2.png)
 
-* ```**:w<enter>**``` - saves the changes
+* ```:w<enter>``` - saves the changes
   
   ![image](https://user-images.githubusercontent.com/54129361/201616598-5919064f-faa0-4e4f-bb99-a18128943d49.png)
 
   
-##Part 2 - Questions##
+## Part 2 - Questions
 ---
   
 * **Report how long it took you to make the edit in seconds in both styles, and any difficulties or details that came up in doing so.**
