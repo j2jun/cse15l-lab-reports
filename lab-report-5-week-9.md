@@ -66,4 +66,10 @@ echo "Grade: $GRADE/2"
 
 ![Student_Submission_3](https://user-images.githubusercontent.com/54129361/204195498-720ed5bf-76b6-4fba-83a0-96a2dedb6112.png)
 
+---
+Trace ```grade.sh``` for Example 2 Student Submission
+
+Link: https://github.com/ucsd-cse15l-f22/list-methods-signature
+
+
 
