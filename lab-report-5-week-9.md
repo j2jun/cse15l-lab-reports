@@ -50,6 +50,7 @@
 45  echo "Grade: $GRADE/2"
 ```
 
+---
 ## Screenshots of Student Submissions
 
 1. https://github.com/ucsd-cse15l-f22/list-methods-compile-error
@@ -186,3 +187,5 @@ This condition is false.
 * Standard Output: ```Grade: 2/2```
 * Standard Error: [empty]
 * Return Code: 0
+
+---
